@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GIS-Beratung von geo-audit.agency - Professionelle Beratung bei der Implementierung von Geoinformationssystemen">
+    <title>GIS-Beratung | geo-audit.agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">geo-audit.agency</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html#services">Dienstleistungen</a></li>
+                <li><a href="index.html#about">Über uns</a></li>
+                <li><a href="index.html#process">Prozess</a></li>
+                <li><a href="index.html#contact" class="btn-primary">Kontakt</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Dark Mode umschalten">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menü öffnen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container page-header-container">
+            <div class="page-header-content">
+                <span class="breadcrumb"><a href="index.html">Home</a> / <span>GIS-Beratung</span></span>
+                <h1 class="page-title">GIS-Beratung</h1>
+                <p class="page-subtitle">Professionelle Beratung bei der Implementierung und Optimierung von Geoinformationssystemen für Ihr Unternehmen.</p>
+                <div class="page-buttons">
+                    <a href="index.html#contact" class="btn-primary btn-large">Beratung anfragen</a>
+                    <a href="#details" class="btn-secondary btn-large">Mehr erfahren</a>
+                </div>
+            </div>
+            <div class="page-header-image">
+                <div class="gis-visual">
+                    <div class="layer-stack">
+                        <div class="layer layer-1"></div>
+                        <div class="layer layer-2"></div>
+                        <div class="layer layer-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details -->
+    <section id="details" class="service-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="details-content">
+                    <h2>GIS-Kompetenz für Ihren Unternehmenserfolg</h2>
+                    <p>Geoinformationssysteme (GIS) sind zu einem unverzichtbaren Werkzeug für datengesteuerte Entscheidungen geworden. Unsere GIS-Beratung hilft Ihnen, das volle Potenzial räumlicher Daten auszuschöpfen – von der Systemauswahl bis zur vollständigen Integration in Ihre Geschäftsprozesse.</p>
+                    
+                    <div class="feature-box">
+                        <h3>🖥️ Systemauswahl & Evaluierung</h3>
+                        <p>Die Wahl des richtigen GIS-Systems ist entscheidend für den langfristigen Erfolg. Wir unterstützen Sie bei:</p>
+                        <ul class="detail-list">
+                            <li>Analyse Ihrer Anforderungen und Use Cases</li>
+                            <li>Evaluierung kommerzieller Lösungen (ArcGIS, QGIS, etc.)</li>
+                            <li>Open-Source vs. proprietäre Systeme</li>
+                            <li>Kosten-Nutzen-Analyse und TCO-Betrachtung</li>
+                            <li>PoC-Implementierung und Testing</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h3>🔄 Datenmigration & Integration</h3>
+                        <p>Nahtlose Überführung Ihrer bestehenden Daten in neue Systemlandschaften:</p>
+                        <ul class="detail-list">
+                            <li>Datenbestandsanalyse und Qualitätsprüfung</li>
+                            <li>ETL-Prozesse (Extract, Transform, Load)</li>
+                            <li>Konvertierung verschiedener Datenformate</li>
+                            <li>Integration in bestehende IT-Infrastruktur</li>
+                            <li>API-Schnittstellen und Automatisierung</li>
+                        </ul>
+                    </div>
+
+                    <div class="feature-box">
+                        <h3>📚 Schulungen & Support</h3>
+                        <p>Nachhaltige Kompetenzentwicklung in Ihrem Team:</p>
+                        <ul class="detail-list">
+                            <li>Maßgeschneiderte Schulungskonzepte</li>
+                            <li>Einsteiger- und Fortgeschrittenenkurse</li>
+                            <li>Role-based Training (Admin, User, Developer)</li>
+                            <li>Dokumentation und Handbücher</li>
+                            <li>Laufender Support und Wartung</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="details-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Unsere Expertise</h3>
+                        <ul class="sidebar-list">
+                            <li>✓ ArcGIS Platform (Esri)</li>
+                            <li>✓ QGIS & Open-Source GIS</li>
+                            <li>✓ PostGIS & Spatial Databases</li>
+                            <li>✓ Web-GIS Lösungen</li>
+                            <li>✓ Cloud-GIS (AWS, Azure, GCP)</li>
+                            <li>✓ Mobile GIS Anwendungen</li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card cta-card">
+                        <h3>Bereit für Ihr GIS-Projekt?</h3>
+                        <p>Unsere Experten beraten Sie gerne zu allen GIS-Themen.</p>
+                        <a href="index.html#contact" class="btn-primary btn-full">Jetzt kontaktieren</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologie-Partnerschaften</h2>
+                <p class="section-subtitle">Wir arbeiten mit führenden GIS-Technologieanbietern</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="tech-icon">🗺️</div>
+                    <h3>Esri ArcGIS</h3>
+                    <p>Umfassende Enterprise-GIS-Lösungen für große Organisationen</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🐧</div>
+                    <h3>QGIS</h3>
+                    <p>Kostenlose, open-source Alternative mit großer Community</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🐘</div>
+                    <h3>PostGIS</h3>
+                    <p>Räumliche Datenbank-Erweiterung für PostgreSQL</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">☁️</div>
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS Location Service, Azure Maps, Google Maps Platform</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">🌐</div>
+                    <h3>Web-GIS</h3>
+                    <p>Leaflet, OpenLayers, Mapbox für interaktive Karten</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">📊</div>
+                    <h3>BI-Tools</h3>
+                    <p>Tableau, Power BI mit räumlichen Visualisierungen</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="service-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Unser Beratungsansatz</h2>
+                <p class="section-subtitle">Strukturiert zum optimalen GIS-System</p>
+            </div>
+            <div class="process-steps-vertical">
+                <div class="process-step-card">
+                    <div class="step-icon">💼</div>
+                    <div class="step-content">
+                        <h3>1. Bedarfsanalyse</h3>
+                        <p>Detaillierte Erfassung Ihrer Geschäftsanforderungen, bestehender Systeme und zukünftiger Ziele.</p>
+                    </div>
+                </div>
+                <div class="process-step-card">
+                    <div class="step-icon">🔬</div>
+                    <div class="step-content">
+                        <h3>2. Marktanalyse</h3>
+                        <p>Evaluierung verfügbarer Lösungen, Vergleich von Features, Kosten und Skalierbarkeit.</p>
+                    </div>
+                </div>
+                <div class="process-step-card">
+                    <div class="step-icon">🧪</div>
+                    <div class="step-content">
+                        <h3>3. Proof of Concept</h3>
+                        <p>Praktische Tests ausgewählter Lösungen mit Ihren realen Daten und Use Cases.</p>
+                    </div>
+                </div>
+                <div class="process-step-card">
+                    <div class="step-icon">🚀</div>
+                    <div class="step-content">
+                        <h3>4. Implementierung</h3>
+                        <p>Rollout des gewählten Systems inklusive Migration, Integration und Schulung.</p>
+                    </div>
+                </div>
+                <div class="process-step-card">
+                    <div class="step-icon">📈</div>
+                    <div class="step-content">
+                        <h3>5. kontinuierliche Optimierung</h3>
+                        <p>Laufender Support, Updates und Weiterentwicklung Ihres GIS-Systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="use-cases">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Einsatzbereiche</h2>
+                <p class="section-subtitle">Typische GIS-Anwendungsfälle in verschiedenen Branchen</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">🏛️</div>
+                    <h3>Öffentlicher Sektor</h3>
+                    <p>Katasterwesen, Stadtplanung, Umweltmonitoring und Bürgerdienste</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">⚡</div>
+                    <h3>Versorgungswirtschaft</h3>
+                    <p>Netzmanagement für Strom, Gas, Wasser und Telekommunikation</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🚚</div>
+                    <h3>Logistik & Transport</h3>
+                    <p>Routenoptimierung, Flottenmanagement und Standortplanung</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🌲</div>
+                    <h3>Umwelt & Natur</h3>
+                    <p>Ökologische Studien, Klimamonitoring und Naturschutz</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">🏗️</div>
+                    <h3>Bauwesen</h3>
+                    <p>BIM-Integration, Baustellenmanagement und Infrastrukturplanung</p>
+                </div>
+                <div class="use-case-card">
+                    <div class="use-case-icon">📱</div>
+                    <h3>Mobile Anwendungen</h3>
+                    <p>Feldarbeit, Inspektionen und Datenerfassung vor Ort</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Starten Sie Ihr GIS-Projekt</h2>
+                <p>Ob Neueinführung, Migration oder Optimierung – wir begleiten Sie kompetent durch alle Phasen Ihres GIS-Vorhabens.</p>
+                <div class="cta-buttons">
+                    <a href="index.html#contact" class="btn-primary btn-large">Projekt anfragen</a>
+                    <a href="tel:+49123456789" class="btn-secondary btn-large">📞 +49 123 456 789</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌍</span>
+                        <span class="logo-text">geo-audit.agency</span>
+                    </div>
+                    <p>Professionelle Geodaten-Analysen und Standortbewertungen für fundierte Unternehmensentscheidungen.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">in</a>
+                        <a href="#" aria-label="Xing">xi</a>
+                        <a href="#" aria-label="Twitter">tw</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Dienstleistungen</h4>
+                    <ul>
+                        <li><a href="standortanalyse.html">Standortanalyse</a></li>
+                        <li><a href="gis-beratung.html">GIS-Beratung</a></li>
+                        <li><a href="raumplanung.html">Raumplanung</a></li>
+                        <li><a href="immobilien-audit.html">Immobilien-Audit</a></li>
+                        <li><a href="geodata-analytics.html">Geodata Analytics</a></li>
+                        <li><a href="custom-solutions.html">Custom Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Unternehmen</h4>
+                    <ul>
+                        <li><a href="index.html#about">Über uns</a></li>
+                        <li><a href="index.html#process">Prozess</a></li>
+                        <li><a href="index.html#testimonials">Referenzen</a></li>
+                        <li><a href="index.html#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kontakt</h4>
+                    <ul class="contact-info">
+                        <li>📍 Musterstraße 123, 10115 Berlin</li>
+                        <li>📧 info@geo-audit.agency</li>
+                        <li>📞 +49 123 456 789</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 geo-audit.agency. Alle Rechte vorbehalten.</p>
+                <div class="footer-links">
+                    <a href="#">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                    <a href="#">AGB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
